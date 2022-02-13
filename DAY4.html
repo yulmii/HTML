@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> DAY4에 배운 <TAG>✨</h1>
+        <br>
+        <p id="1">
+          <h2>HTML의 기본구성 TAG</h2>
+          <!-- &lt; = <, &gt = > -->
+            <ul>
+                <li>&lt;HTML&gt;</li>
+                - HTML 문서의 시작과 끝을 의미하는 태그로서 작성된 문서가 HTML을 사용한 문서임을 나타냅니다.<br>
+                    - 시작태그인 &lt;HTML>은 앞쪽에, 종료태그인 &lt;/HTML>은 문서의 마지막에 두어 소스 전체를 감싸주어야합니다.<br>
+                    - 즉, &lt;HTML> 태그 안에&lt;HEAD>...&lt;/HEAD>와 &lt;BODY>...&lt;/BODY> 태그가 차례로 위치하게 됩니다.                 
+                    
+            </ul>
+            <ul>
+                <li>&lt;HEAD&gt;</li>
+                - HTML 문서에 관한 기본 정보를 포함하고 있는 부분으로, 주로 문서의 제목, 제작자, 문서정보 등이 포함될 수 있습니다.
+                <ul>
+                    <li>&lt;title></li> 
+                    - 문서 상단의 제목 설정
+                    <li>&lt;meta></li> 
+                    - 문서 정보 설정
+                    <li>&lt;script></li>
+                    - javascript 언어 등을 사용한 다양한 프로그램이 위치하는 공간이기도 합니다.
+                    <li>&lt;style></li> 
+                    - 문서의 장식<br>
+                </ul>    
+                - &lt;HTML>, &lt;HEAD>, &lt;TITLE> 등의 태그를 적어주더라도 실제 화면상에는 아무런 내용이 출력되지 않습니다.
+            </ul>
+            <ul>
+                <li>&lt;BODY&gt;</li>
+                - HTML 문서의 본문에 해당하는 곳으로 실제 화면에 나타나는 내용을 기술하는 부분입니다. 즉, 사용자가 웹브라우저 상에 표현하고자 하는 내용들을 다양한 태그를 사용하여 구성하는 부분으로, 웹문서의 대부분을 차지하게 됩니다.
+            </ul>
+        </p>
+        <P id="2">
+            <h2>Heading TAG</h2>
+            <ul>
+                <li>&lt;h1> ~ &lt;h6></li>
+                - 제목을 표현하는 태그<br>
+                - 6단계로 표현<br>
+                - 사용법<br>
+                    <ul>&lt;h1> 제목 &lt;/h1></ul>
+                - example
+                    <ul>
+                        <h1>제목1</h1>
+                        <h2>제목2</h2>
+                        <h3>제목3</h3>
+                        <h4>제목4</h4>
+                        <h5>제목5</h5>
+                        <h6>제목6</h6>
+                    </ul>
+            </ul>
+        </P>
+        <p id="3">
+            <h2>Paragraph TAG</h2>
+            <ul>
+                <li>&lt;p></li>
+                &lt;p>&lt;/p>
+                <li>&lt;br></li>
+                &lt;br>
+                <li>&amp;nbsp; / &amp;ensp; / &amp;emsp;</li>
+            </ul>
+        </p>
+        <p id="4">
+            <h2>List TAG</h2>
+            <ul>
+                <li>&lt;ol></li>
+                <li>&lt;ul></li>
+                <li>&lt;dl></li>
+                &lt;dl>
+                &lt;dt>
+                &lt;dd>
+            </ul>
+        </p>
+        <p id="5">
+            <h2>Table TAG</h2>
+            <ul>
+                <li>&lt;table></li>
+                <table border>
+                    <thead>과일 가격</thead>
+                    <tr>
+                      <th>과일명</th>
+                      <th>가격</th>
+                    </tr>
+                    <tr>
+                      <td>사과1개</td>
+                      <td>4000원</td>
+                    </tr>
+                    <tr>
+                      <td>수박1통</td>
+                      <td>15000원</td>
+                    </tr>
+                    <tr>
+                        <td>바나나1손</td>
+                        <td>4000원</td>
+                    </tr>
+                  </table>
+            </ul>
+        </p>
+        <p id="6">
+            <h2>Imeage TAG</h2>
+            <ul>
+                <li>&lt;img></li>
+                - &lt;img>`는 내용이 없는 태그중에 하나 입니다.<br>
+                - 일반적인 사용법
+                <ul>
+                    &lt;img src='url/path'/>
+                </ul>
+                - example
+                <ul>
+                    <img src="https://w.namu.la/s/3dfba82d642947b3fb7896f52f6cd3eb191309cc33b0f8a084cfe3a3c9d301e7866f79d5ffe55e4149c8019c8f7aa2dd1e69365230d902014083c2d3c8535d808a8d89430998139e135e799b749b6fa0"/>                
+                </ul>
+                - 속성 사용법
+                <ul>
+                    &lt;img src='url/path' width='px', height='px'/>
+                </ul>
+                - example
+                <ul>
+                    <img src="https://w.namu.la/s/3dfba82d642947b3fb7896f52f6cd3eb191309cc33b0f8a084cfe3a3c9d301e7866f79d5ffe55e4149c8019c8f7aa2dd1e69365230d902014083c2d3c8535d808a8d89430998139e135e799b749b6fa0" width="300px" height="250px"/>                
+                </ul>
+            </ul>
+        </p>
+        <p id="7">
+            <h2> Anchor TAG</h2>
+            <ul>
+                <li>&lt;a></li>
+                - 하이퍼 링크
+                    <ul>
+                        <li>지금의 웹이 만들어지는데 가장 중요한 기능</li>
+                        <li> 봇(bot)</li>
+                        <ul>
+                            <li>자동화된 프로그램</li>
+                            <li>웹 페이지도 봇에 의해서 자동으로 수집</li>
+                            <li>시드(seed)페이지를 통해서 하이퍼-링크를 통해서 연결되어 있는 다른 웹 페이지를 찾는 방식</li>
+                            <li>전세계에 흩어져 있는 웹 페이지를 전부 수집</li>
+                            <li>이렇게 수집된 페이지에서 사용자가 원하는 페이지를 가장 빠르게 검색해서 제공하는 해주던 사이트가 바로 구글입니다.</li>
+                        </ul>
+                    </ul>
+                - 사용법
+                    <ul>
+                    <li>&lt;a> 연결된 페이지의 이름 &lt;/a></li>
+                        - example
+                        <ul>
+                            <a href="https://www.daum.net"> DAUM </a>
+                        </ul>
+                    </ul>
+                    - 속성
+                        <ul>
+                            <li>href: 연결된 페이지의 주소(URL/URI)</li>
+                            <li>target: 연결된 페이지로 이동하는 방식</li>
+                            <ul>
+                                <li>_self(default): 현재 창에서 해당 페이지로 바로 이동</li>
+                                <li>_blank: 새창에서 해당 페이지로 이동</li>
+                                <li>_parent: 현재 창보다 상위 창에서 해당 페이지로 이동</li>
+                                <li>_top: 최상위 창에서 해당 페이지로 이동</li>
+                            </ul>
+                        - example
+                            <ul>
+                                <a href="https://www.daum.net", target="_self"> DAUM </a><br>
+                                <a href="https://www.daum.net", target="_blank"> DAUM </a><br>
+                                <a href="https://www.daum.net", target="_parent"> DAUM </a><br>
+                                <a href="https://www.daum.net", target="_top"> DAUM </a>
+                            </ul>
+                        </ul>
+                    
+
+                    </ul>
+            </ul>
+        </p>
+        <p id="8">
+            <h2>Iframe TAG</h2>
+        </p>
+</body>
+</html>
