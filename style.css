@@ -1,3 +1,7 @@
+body{
+    background-color: papayawhip;
+}
+
 #header{
     width: 100%;
     height: 150px;
@@ -5,5 +9,24 @@
     background-position: center;
     background-size: 300px 100%;
     text-align: center;
-    color: salmon;         
+    }
+
+#title{
+    font-size: 30px;
+    color: salmon;  
+}
+hr{
+    border: 0.5px solid peru;
+}
+.link{
+    background-color: rgb(209, 163, 94);
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+    /* 세로정렬 어떻게? */
+    font-size: 50px;
+    color: seagreen;
+    /* 밑줄 없애기 */
+
 }
