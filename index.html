@@ -9,22 +9,32 @@
 </head>
 <body>
     <header id="header" role="header">
-        <!-- 글자 세로정렬 가운데 어떻게ㅣ....... -->
-        <span id="title"><strong>Yulmii'S<br>
-            Today I Learnd📖</strong></span>
+        <strong>Yulmii'S<br>
+            Today I Learnd📖</strong>
     </header>
-    <br>
+    
     <hr>
-    <br>
-    <!-- 나란히 하고싶다 -->
-    <container id="container" role="contents">
-        <a href="https://yulmii.github.io/HTML-SIAT-IT-STUDY/yurim"><div class="link">WEB</div></a>
-        <a href="https://yulmii.github.io/HTML-SIAT-IT-STUDY/DAY4"><div class="link">HTML</div></a>
-        <a href="https://yulmii.github.io/HTML-SIAT-IT-STUDY/CSS"><div class="link">CSS</div></a>
-    </container>
-    <br>
-    <hr style="border: 0.5px solid peru;">
-    <br>
+    
+    <nav id="nav" role="navigator">
+        <div class="nav">
+            <a href="https://yulmii.github.io/HTML-SIAT-IT-STUDY/yurim"><div class="link">WEB</div></a>
+            </a href="https://yulmii.github.io/HTML-SIAT-IT-STUDY/DAY4"><div class="link">HTML</div></a>
+            <a href="https://yulmii.github.io/HTML-SIAT-IT-STUDY/CSS"><div class="link">CSS</div></a>
+        </div>
+        <form action='url/app/id' method='get'>
+            <input id="serch" type="text" placeholder="🔍무엇을 찾으시겠습니까?">
+            <input id="input" type="button" value="확인">
+        </form>
+    </nav>
+    
+    <hr>
+    
+    <main id="main" role="main">
+
+    </main>
+
+    <hr>
+
     <footer id="footer" role="footer">
         <span>email : yulmii0914@gmail.com</span>
     </footer>

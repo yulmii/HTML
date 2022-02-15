@@ -3,30 +3,60 @@ body{
 }
 
 #header{
-    width: 100%;
+    width: auto;
     height: 150px;
     background: url(photo.jpg) no-repeat;
     background-position: center;
     background-size: 300px 100%;
     text-align: center;
-    }
-
-#title{
     font-size: 30px;
-    color: salmon;  
+    color: salmon; 
 }
+
 hr{
     border: 0.5px solid peru;
 }
+
+#nav {
+    height: 50px;
+}
+
 .link{
-    background-color: rgb(209, 163, 94);
+    background-color: rgb(224, 240, 135);
     width: 150px;
-    height: 150px;
-    margin-bottom: 20px;
+    height: 50px;
+    margin-bottom: ;
     text-align: center;
-    /* 세로정렬 어떻게? */
-    font-size: 50px;
+    /* 글자 세로정렬 어떻게? */
+    /* 나란히 하고 싶다 */
+    flex-direction: column;
+    display: inline-block;
+    /* 나란히 */
+    font-size: 30px;
     color: seagreen;
     /* 밑줄 없애기 */
-
 }
+#serch{
+    width: 200px;
+    height: 30px;
+}
+
+input#serch{
+    text-align: center;
+}
+
+input#input{
+    width: 50px;
+    height: 30px;
+}
+
+/* .nav{
+    flex-direction: column;
+    display: inline-block;
+     input 도 나란히 
+}*/
+/
+
+
+
+
