@@ -19,7 +19,17 @@ list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMA
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.book-mark{
+    background-color: rgb(143, 199, 209);
+    width: 800px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .table-head{
     /* padding-top: 10px; 제목위에 조금 띄고 싶음 */
     font-size: 20px;
+}
+p {
+    /* width: 800px; 너무 길면 줄나눔 */
 }
