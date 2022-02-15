@@ -1,0 +1,25 @@
+/* .bulb{
+list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABaUExURUdwTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/XegAAAObm5v+7Ac3NzXVhNNe1ZcmpXu7IcU9CIRQPBJR8RK+vryUdC6aLTf/PVWNjY6+TUbvqcD4AAAAMdFJOUwA2gJr4tlgN8UnexUSyejUAAAH6SURBVFjD7ZjrboMwDIWBQLklYxAuBbr3f82RC03aAnbSapumnj+opf2UY1u2IQjeek5pHiVFxlhWJFGeemNysjCMMpL7YUr2oNIdlSZsU4mjwZM21ddT01La8qketcGTCydSf+o4tcQ7+WUc4TlEYRp6p0ahiNt5BrqhQd5Cnukkg8Pppngv7qLilIo49w3dUSNIGSZ3Mu+c7orLKkDU4W58buIEV6ao544eSuSuRB2oOQY1mCMR+EDqSASRMg6BOJw44aynoHrQmyjqGgbVYHmLIppg0ASWUgHnbA1ScQgSsW5hUCuifQiKl19QHCj+GdDLrCGD3YDBfln6Cb4gCdhmRxg0gu02ZZggyT6Swn2txjgrMSOkhZMPDhLZkGr4QPAcicAocdyMTEVNjgfmWpGyIkUO2rVtz1U121fdsHGjVk5IHaZqkX1VAcLMx9WcnpGVJcMpkNtWmF1Js+HM1ykbh+j1MTbuVmvmPLHDIqlIwz1ocOWs7vgtSBZQFgaBM2m8BY0eHL1NfNmgL9w6s7dOGFDnsofa5tQaYEBi4IceINnjbBCim+2DPiyJz8Eb9ABi7FNLffp90Nk4O/8N0P+MkVwD70CZF0g991+UswvDj6HNSalJisP8XkXoh21LUeCpUxkbSlzmgb/C62uWLAye0kp6lvPWom8l7GJ6widgRAAAAABJRU5ErkJggg==)
+} */
+
+.first-title{
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.bulb::marker{
+    content: '💡 ';
+    }
+
+.gray-box{
+    background-color: lightgray;
+    padding-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.table-head{
+    /* padding-top: 10px; 제목위에 조금 띄고 싶음 */
+    font-size: 20px;
+}

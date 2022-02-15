@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS✏️</title>
+    <link rel='stylesheet' type='text/css' href='./css_style.css' />
+</head>
+<body>
+    <h1 style="text-align: center;">CSS✏️</h1>
+
+    <p>
+        <ul>
+            <li class="first-title">CSS</li>
+            <ul>
+                <li class="bulb">
+                    <strong>종속형 시트 또는 캐스케이딩 스타일 시트(Cascading Style Sheets, CSS)</strong> <br>
+                    마크업 언어가 실제 표시되는 방법을 기술하는 스타일 언어(style sheet language)로, HTML과 XHTML에 주로 쓰이며, XML에서도 사용할 수 있다. W3C의 표준이며, 레이아웃과 스타일을 정의할 때의 자유도가 높다.<br>
+                    <strong>기본 파일명은 style.css이다.</strong>
+                    <br>마크업 언어(ex: HTML)가 웹사이트의 몸체를 담당한다면 <u><strong>CSS는 옷과 액세서리처럼 꾸미는 역할을 담당한다고 할 수 있다.</strong></u> 즉, HTML 구조는 그대로 두고 CSS 파일만 변경해도 전혀 다른 웹사이트처럼 꾸밀 수 있다.
+                    현재 개발 중인 CSS3의 경우 그림자 효과, 그라데이션, 변형 등 그래픽 편집 프로그램으로 제작한 이미지를 대체할 수 있는 기능이 추가되었다. 또한 다양한 애니메이션 기능이 추가되어 <Strong>어도비 플래시를 어느 정도 대체하고 있다.</Strong></li>
+            </ul>
+        </ul>
+    </p>
+    <p>
+        <ul>
+            <li class="first-title">CSS를 사용하는 방법</li>
+            <ul>
+                <li>Inline - 태그 내부에 따로 값을 주는 방법 &lt;p style=”~~~ &gt; &lt;/p&gt;</li>
+                <li>Internal - &lt;style&gt; &lt;/style&gt;</li>
+                <li>External - 외부 시트 불러와서 사용</li>
+                <ul>
+                    <li>현업에서는 External Style을 주로 씁니다</li>
+                    <li>이유는 = Mark Up을 방해하기 때문에</li>
+                    <ul>
+                        <li>검색순위도 중요하고, 태그들에 심어놓은 동작도 중요한데</li>
+                        <li>코드에 css까지 입혀져있다면 개발자도 알아보기 불편하고, 파싱할 때도 잘못 파싱되는 경우가 있겠죠 (순위권에서 밀려납니다)</li>
+                        <li>전체 속성을 변경하기에도 수월합니다. (네이버 브랜드 색깔이 핑크로 바뀐다면?)</li>
+                        &lt;link rel='stylesheet' type='text/css' href='파일 경로 /&gt;
+                    </ul>
+                </ul>
+            </ul>    
+        </ul>
+    </p>
+    <p>
+        <ul>
+            <li class="first-title">CSS 구조</li>
+            <ul>
+                p {
+                <br>color : balck;
+                <br>}
+                <br><br>선택자(Selector) {
+                <br>속성이름 : 값
+                <br>속성이름 : 값;
+                <br>속성이름 : 값;
+                <br>}
+                <br><br>/* 사이에 주
+                <br>속성값이 여러개인 경우는 공백으로 구분합니다
+                <br>속성과 속성은 ;로 구분합니다.
+            </ul>
+        </ul>
+    </p>
+    <p>
+        <ul>
+            <li class="second-title">속성</li>   
+            폰트, 색, 애니메이션 효과까지 다 속성으로 변경합니다.
+            <ol>
+                <li class="bracket"> Font 속성</li>  
+                <ul>
+                    <li>폰트, 글자크기, 글자 색....</li>
+                    <li>상속 - 부모 태그에 적용한 속성이 자식 태그들한테까지 영향을 미쳐서 덜 귀찮게 손봐도 되는 특징이 있습니다.</li>
+                    <li>html, body 선택자를 사용하는 것이 가능하다 
+                    <br>(*도 사용 가능)</li>
+                </ul>
+                <div class="gray-box">
+                    <br>.p1 {<br>
+                        font-family: "Times New Roman", Times, serif;<br>
+                      }<br><br>
+                      
+                      .p2 {<br>
+                        font-family: Arial, Helvetica, sans-serif;<br>
+                      }<br><br>
+                      
+                      .p3 {<br>
+                        font-family: "Lucida Console", "Courier New", monospace;<br>
+                      }<br><br>
+                </div>
+                <div class="book-mark">
+                    <a href="https://www.w3schools.com/css/css_font.asp">W3C의 CSS FONTS</a>
+                </div>
+                <ul>
+                    <li>font-family는 해당 페이지에서 사용할 기본 글꼴을 설정해주는 속성이고요</li>
+                    <li>브라우저가 실행되는 환경에 해당 글꼴이 있어야 불러와서 구현해줍니다</li>
+                    <li>그래서 하나만 알려주지 않고 없는 글꼴이 있을때 대체해주는 (백업) 글꼴들도 같이 지정을 해 줍니다.</li>
+                </ul><br>
+                <li>Color 속성</li>
+                <ul>
+                    <li>글자색, 배경색, 배경이미지, ....</li>
+                    <li>색깔을 불러오는 방법은 세가지가 있다</li>
+                    <li>그중 무엇을 선택해도 무방하다</li>
+                </ul>
+                <div>
+                    <a href="https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=009688&secondary.color=FFF176">Color Tool-Material Design</a>
+                </div>
+                <li>background</li>
+                <li>border</li>
+                <li>width,height</li>
+                <li>......</li>
+            </ol>
+        </ul>
+    </p>
+    <p>
+        <ul>
+            <li class="second-title">선택자 유형</li>
+            <ul>
+                <li class="third-title">태그 선택자</li>
+                <ul>
+                    <li><strong>태그명 사용</strong></li>
+                    <li><strong>요소(element) 선택자라고도 함</strong></li>
+                    <li><strong>HTML 문서에 있는 같은 모든 태그에 동일하게 적용</strong></li>
+                    <li>문법</li>
+                    <strong>태그명 {속성;값;}</strong>
+                    <br>
+                    <img src="https://radial-risk-2bf.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0102045d-2fe0-4206-a552-0c444e51a94c%2FUntitled.png?table=block&id=f7dc0056-539a-4a27-b7f3-5aa3df98076e&spaceId=d1a988f4-e527-4f37-84f2-5cf57ae3d75a&width=2000&userId=&cache=v2" alt="태그명{속성:값;}" width="300px" />
+                    <li>태그 여러개 선택시<br>
+                        여러 선택지를 쉼표(,)로 구분하여 연결</li>
+                    <div class="gray-box">
+                        <br>
+                        &lt;style&gt;<br>
+                        h1 { color: navy; }<br>
+                        h1, h2 { text-align: center; }<br>
+                        h1, h2, p { background-color: lightgray; }<br>
+                        &lt;/style&gt;<br><br>
+                    </div>
+                    조합도 가능<br>
+                    
+                    <table>
+                        <thead class="table-head">선택자 조합 방법</thead>
+                    </table>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+
+                </ul>
+            </ul>
+        </ul>
+    </p>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
