@@ -11,34 +11,57 @@ body{
     text-align: center;
     font-size: 30px;
     color: salmon; 
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+
 }
 
 hr{
     border: 0.5px solid peru;
 }
 
-#nav {
-    height: 50px;
+hr#first {
+    margin-top: 170px;
+}
+
+nav{
+    position: sticky;
+    top: 5px;
+    background-position: center;
+}
+.nav{
+    margin-top: 2.5px;
+    flex-direction: column;
+    display: inline-block;
+    /* sticky가 안먹는다 */
 }
 
 .link{
-    background-color: rgb(224, 240, 135);
+    background-color: rgb(135, 240, 166);
+    border-radius: 50px;
     width: 150px;
-    height: 50px;
-    margin-bottom: ;
+    height: 35px;
+    margin-bottom:2.5px;
     text-align: center;
-    /* 글자 세로정렬 어떻게? */
+    padding-top: 5px;
+    
+    /* writing-mode: vertical-lr; 글자 세로로보게 */
+    /* 글자 세로 가운데 정렬 어떻게? */
     /* 나란히 하고 싶다 */
     flex-direction: column;
     display: inline-block;
     /* 나란히 */
-    font-size: 30px;
+    font-size: 20px;
     color: seagreen;
     /* 밑줄 없애기 */
 }
 #serch{
     width: 200px;
     height: 30px;
+    margin-bottom: px;
+
 }
 
 input#serch{
@@ -47,7 +70,12 @@ input#serch{
 
 input#input{
     width: 50px;
-    height: 30px;
+    height: 35px;
+}
+
+main{
+    height: 1000px;
+    overflow: auto;
 }
 
 /* .nav{
@@ -55,8 +83,6 @@ input#input{
     display: inline-block;
      input 도 나란히 
 }*/
-/
-
 
 
 
