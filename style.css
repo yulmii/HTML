@@ -1,54 +1,61 @@
+/* 배경색 */
 body{
     background-color: papayawhip;
 }
-
+/* <header id="header"헤더 */
 #header{
+    /* 사진 */
     width: auto;
     height: 150px;
     background: url(photo.jpg) no-repeat;
     background-position: center;
     background-size: 300px 100%;
+    /* 글자 */
     text-align: center;
     font-size: 30px;
     color: salmon; 
+    /* 레이아웃 */
     position: absolute;
     top: 10px;
     left: 0;
     right: 0;
-
 }
-
-hr{
-    border: 0.5px solid peru;
-}
-
+/* <hr <id=first"> 첫번째 선 */
 hr#first {
     margin-top: 170px;
 }
-
+/* <hr>선색 종류 굵기 */
+hr{
+    border: 0.5px solid peru;
+}
+/* <nav> 레이아웃 */
 nav{
+    /* background-color: aqua; */
     position: sticky;
     top: 5px;
-    background-position: center;
+    /* background-position: center; */
 }
+/* <div class="nav"> 버튼 위치 배열 */
 .nav{
     margin-top: 2.5px;
-    flex-direction: column;
-    display: inline-block;
+    /* flex-direction: column; */
+    display: inline;
+    /* display: inline-block; */
+    /* 인라인 블락 안먹음 이상해짐 */
+    margin-left: 5%;
     /* sticky가 안먹는다 */
 }
-
+/* 링크버튼 모양 */
 .link{
     background-color: rgb(135, 240, 166);
     border-radius: 50px;
-    width: 150px;
+    width: 22.5%;
     height: 35px;
     margin-bottom:2.5px;
     text-align: center;
-    padding-top: 5px;
-    
     /* writing-mode: vertical-lr; 글자 세로로보게 */
     /* 글자 세로 가운데 정렬 어떻게? */
+    padding-top: 5px;
     /* 나란히 하고 싶다 */
     flex-direction: column;
     display: inline-block;
@@ -57,32 +64,25 @@ nav{
     color: seagreen;
     /* 밑줄 없애기 */
 }
+/* <text입력창>무엇을찾으시겠습니까? */
 #serch{
-    width: 200px;
+    /* 크기 비율로 */
+    width: 80%;
     height: 30px;
-    margin-bottom: px;
-
-}
-
-input#serch{
+    /* 가운데로하려고 */
+    margin-left: 5%; 
+    /* 무엇을 찾으시겠습니까?가운데정렬 */
     text-align: center;
 }
-
-input#input{
-    width: 50px;
-    height: 35px;
+/* <확인>버튼 */
+#input{
+    width: 10%;
+    height: 35px;    
 }
 
 main{
-    height: 1000px;
     overflow: auto;
 }
 
-/* .nav{
-    flex-direction: column;
-    display: inline-block;
-     input 도 나란히 
-}*/
-
-
+/* form도 원래 나라히 하려고 했는데 안됨.. */
 
