@@ -1,0 +1,52 @@
+header {
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    border:2px dashed purple;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+nav {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border:2px dashed rgb(3, 194, 44);
+    width: 20%;
+    position: fixed;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+}
+main {
+    border:2px dashed rgb(3, 194, 44);
+    position: fixed;
+    padding: 20px;
+    top: 100px;
+    left: 20%;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+}
+
+#cafe {
+    padding- ;
+}
+#cafe>li::marker {
+    content: "🥤";
+    line-height:;
+}
+
+.menu{
+    margin: 2.5%;
+    width: 95%;
+    height: 600px;
+}
+
+.logo {
+    margin: 20px;
+
+}
