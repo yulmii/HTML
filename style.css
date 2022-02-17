@@ -84,5 +84,8 @@ main{
     overflow: auto;
 }
 
+footer>a {
+    text-decoration-line: none;
+}
 /* form도 원래 나라히 하려고 했는데 안됨.. */
 
