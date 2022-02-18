@@ -3,6 +3,15 @@ body{
     background-color: papayawhip;
 }
 /* <header id="header"헤더 */
+yulmii {
+    background-color: aqua;
+    width:100vw;
+    height: 170px;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+
 #header{
     /* 사진 */
     width: auto;
@@ -30,7 +39,7 @@ hr{
 }
 /* <nav> 레이아웃 */
 nav{
-    /* background-color: aqua; */
+    background-color: papayawhip;
     position: sticky;
     top: 5px;
     /* background-position: center; */
