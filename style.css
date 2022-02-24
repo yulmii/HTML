@@ -8,6 +8,7 @@ yulmii {
     width:100vw;
     height: 170px;
     position: absolute;
+    z-index: 3;
     top: 0;
     left:0;
 }
@@ -90,7 +91,9 @@ nav{
 }
 
 main{
+    position: absolute;
     overflow: auto;
+    z-index: -1;
 }
 
 footer>a {
