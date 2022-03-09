@@ -19,12 +19,6 @@
     
     }
 
-    @media screen and (max-width: 600px) {
-      #top_x_div {
-                width:250px;
-              }
-            }
-
     @keyframes movemove {
       0% {
         transform: translate(0, 0);
@@ -43,7 +37,7 @@
 </head>
 
 <body>
-  <button onclick="char1()">👆표</button>
+  <button style= onclick="char1()">👆표</button><br>
   <button id="star" onclick="cl()" style="margin: top 5px;">⭐별이 몇개</button>
   
     <form method="get" action="https://www.google.com/search?">
@@ -58,8 +52,8 @@
     <div style="display : inline-block; "><button onclick="MISSION()">+90</button>
     <button onclick="OH()">+5</button></div>
     </div>
-  <div id="table_div" style="margin-top:20px; display: none; width: 400px; height: 400px;"></div>
-  <div id="top_x_div" style="margin-top:20px; "></div>
+  <div id="table_div" style="margin-top:20px; display: none; "></div>
+  <div id="top_x_div" style="margin-top:20px; width: 70%; height: 60vh;"></div>
   <script type="text/javascript">
     google.charts.load('current', {
       'packages': ['bar']
